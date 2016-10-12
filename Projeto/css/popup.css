@@ -1,0 +1,384 @@
+h3 {
+  font: 14px Verdana, sans-serif;
+
+  display: inline-block;
+  float: left;
+
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+textarea {
+  font: 15px  Verdana, sans-serif;
+
+  overflow: auto;
+
+  width: 90.5%;
+  margin-bottom: 8px;
+  padding: 10px;
+  padding-left: 40px;
+
+  resize: none;
+
+  color: #000;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+#startd-col, #endd-col {
+  display: inline-block;
+
+  width: 240px;
+}
+
+#startt-col, #endt-col {
+  display: inline-block;
+
+  width: 200px;
+}
+
+#endd-col {
+  margin-left: 11px;
+}
+
+#startt-col, #endt-col {
+  float: right;
+
+  margin-right: 10px;
+}
+
+#endt-col h3 {
+  margin-left: 11px;
+}
+
+#popup-create-event  .close-thik {
+  margin-right: 0;
+}
+
+#popup-create-event #name {
+  width: 488px;
+}
+
+#popup-create-event .submit {
+  margin-top: 0;
+}
+
+input[type='file'] {
+  display: inline-block;
+
+  width: 340px;
+  margin-left: 38.3px;
+}
+
+#popup {
+  position: fixed;
+  top: 28%;
+  left: 48.7%;
+
+  display: none;
+
+  width: 440px;
+  margin-left: -202px;
+
+  -webkit-box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+     -moz-box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+          box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+}
+
+#popup-register {
+  position: fixed;
+  top: 23%;
+  left: 47.7%;
+
+  display: none;
+
+  width: 470px;
+  margin-left: -202px;
+
+  -webkit-box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+     -moz-box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+          box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+}
+
+#popup-create-event, #popup-edit-event, #popup-invite-people {
+  position: fixed;
+  top: 12%;
+  left: 43.5%;
+
+  display: none;
+
+  width: 600px;
+  margin-left: -202px;
+}
+
+#popup-invite-people{
+  z-index: 1999;
+   width: 400px;
+    top: 31%;
+    left: 50%;
+}
+
+#popup-invite-people h3 {
+  text-align: center;
+  margin:auto;
+  margin-left: 25px;
+  font: 17px Verdana, sans-serif;
+}
+
+#popup-error, #popup-error-wemail, #popup-error-wpassword, #popup-error-wname, #popup-error-wusername, #popup-error-invalidpass, #popup-error-invite, #popup-error-alre-regist, #del-confirm {
+  position: fixed;
+  top: 34%;
+  left: 40%;
+
+  display: none;
+
+  width: 300px;
+
+  -webkit-box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+     -moz-box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+          box-shadow: 0 5px 15px 0 rgba(50, 50, 50, .8);
+}
+
+#popup-error-invalidpass {
+  left: 38.4%;
+
+  width: 350px;
+}
+
+#popup-error-alre-regist, #popup-error-invite {
+  width: 380px;
+}
+
+form {
+  max-width: 90%;
+  min-height: 40%;
+  padding: 30px 30px;
+
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+h2 {
+  font: 30px Helvetica, Verdana, sans-serif;
+
+  margin: -10px -50px;
+  padding: 20px 35px;
+  padding-top: 10px;
+
+  text-align: center;
+  letter-spacing: 2px;
+
+  color: #404040;
+  border-radius: 10px 10px 0 0;
+}
+
+#popup-error p, #popup-error-wemail p, #popup-error-wpassword p, #popup-error-wname p, #popup-error-wusername p, #del-confirm p {
+  font: 18px Helvetica, Verdana, sans-serif;
+
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+#popup-error-wpassword p, #popup-error-wname p, #popup-error-wusername p {
+  margin-left: 63px;
+}
+
+#popup-error-wname p {
+  margin-left: 80px;
+}
+
+#popup-error-invalidpass p, #popup-error-alre-regist p, #popup-error-invite p {
+  font: 18px Helvetica, Verdana, sans-serif;
+
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#popup-error-alre-regist, #popup-error-invite {
+  left: 37.5%;
+}
+
+#popup-error-invite #special-p {
+  padding-left: 45px;
+}
+
+#special-p {
+  padding-left: 70px;
+}
+
+#popup-error h2, #popup-error-wemail h2, #popup-error-wpassword h2, #popup-error-wname h2, #popup-error-wusername h2 {
+  font: 25px Helvetica, Verdana, sans-serif;
+}
+
+hr {
+  margin: 10px -30px;
+  margin-bottom: 25px;
+
+  border: 0;
+  border-top: 6px solid #404040;
+}
+
+input {
+  font-size: 16px;
+
+  width: 87%;
+  padding: 10px;
+  padding-left: 40px;
+
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+#location {
+  width:90.5%;
+}
+
+#popup-edit-event #name {
+  width:90.5%;
+}
+
+div.popup button {
+  font: 20px Verdana, sans-serif;
+  font-size: 20px;
+
+  display: block;
+
+  width: 101%;
+  margin-top: 25px;
+  padding: 10px 0;
+
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+
+  color: #fff;
+  border-radius: 5px;
+  background-color: #261028;
+}
+
+#popup-edit-event button {
+  display: inline-block;
+
+  width: 40%;
+}
+
+#popup-edit-event button:last-child {
+  margin-left: 95px;
+}
+
+.close-thik {
+  font: 20px/100% arial, sans-serif;
+
+  position: absolute;
+  top: 7px;
+  right: 7px;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  color: #404040;
+}
+
+.close-thik:after {
+  content: '✖'; /* UTF-8 symbol */
+}
+
+.menu-time-wrap {
+  display: inline-block;
+  float: left;
+
+  width: 12.8%;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.menu-time-wrap:last-child {
+  margin-right: 0;
+  padding-left: 4px;
+}
+
+.start-hour, .end-hour {
+  margin-right: 24px;
+}
+
+.end-hour {
+  margin-right: 25px;
+}
+
+.select-time {
+  width: 50px;
+  height: 35px;
+  margin-right: 0;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #efefef;
+}
+
+.select-type, .select-state {
+  width: 130px;
+  height: 35px;
+  margin-left: 5px;
+  padding-left: 42px;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #efefef;
+}
+
+.select-type {
+  margin-left: 55px;
+}
+
+.year {
+  width: 70px;
+}
+
+.month, .min {
+  margin-left: 2px;
+}
+
+select {
+  display: inline-block;
+
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+
+  cursor: pointer;
+
+  color: #888;
+  border: none;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  outline: none;
+  background: #f8f8f8;
+  -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+     -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+          box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+select option {
+  padding-left: 15px;
+}
+
+#sub-menu {
+  margin-top: 5px;
+}
+
+#popup-invite-people select option{
+  padding: 10px;
+}
+
+#popup-invite-people .select-time {
+  font: 14px Verdana, sans-serif;
+  margin-top:20px;
+  width: 240px;
+  margin-left:50px;
+}
